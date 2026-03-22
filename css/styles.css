@@ -89,8 +89,8 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
 }
@@ -114,8 +114,8 @@ img {
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
   transition-property: color;
   transition-duration: var(--transition-duration);
@@ -152,8 +152,8 @@ img {
   display: block;
   padding: 24px 0;
   font-size: 16px;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
   transition-property: color;
   transition-duration: var(--transition-duration);
@@ -188,16 +188,15 @@ img {
   max-width: 496px;
   margin-bottom: 48px;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 
 .hero-order-btn {
   display: block;
   min-width: 169px;
-  height: 56px;
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
@@ -205,8 +204,8 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing:4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
   transition-property: background-color;
@@ -243,15 +242,15 @@ img {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .item-description {
   font-size: 16px;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -262,9 +261,9 @@ img {
 .block-title {
   margin-bottom: 72px;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
 }
@@ -365,8 +364,8 @@ img {
   height: 100%;
   padding: 40px 32px;
   font-size: 16px;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
   background-color: var(--iris);
   transform: translateY(100%);
@@ -414,16 +413,16 @@ img {
 
 .footer-description-text {
   max-width: 264px;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
 
 .footer-social-title {
   margin-bottom: 16px;
   font-weight: 500;
-  line-height: 24 px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 
